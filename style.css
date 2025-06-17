@@ -1,0 +1,486 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#overlay_game_over {
+  /* nasconde l'overlay */
+  display: none;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Semi-transparent white background */
+  z-index: 9999;
+  /* Higher z-index to ensure it's on top */
+
+
+
+  
+  
+}
+
+#title_g_o{
+  text-align: center;
+}
+
+#punteggio{
+  text-align: center;
+}
+
+#tempo_g_o{
+  text-align: center;
+}
+
+#timer{
+  text-align: center;
+  font-size: 3em;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Semi-transparent white background */
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+}
+
+.overlay_timer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Semi-transparent white background */
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: yellow;
+  border-radius: 7px;
+  border: none;
+  color: darkred;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.titolo {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: red;
+  font-size: 1em;
+}
+
+.giallo {
+  background-color: lightyellow;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.rosso {
+  background-color: #ffcccb;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.viola_chiaro {
+  background-color: #CBC3E3;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.azzurro {
+  background-color: lightblue;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.viola {
+  background-color: #f7b0bb;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.arancio {
+  background-color: #ffc782;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.lilla {
+  background-color: #a6b8ff;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.parco {
+  background-color: lightgreen;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.piscina {
+  background-color: lightblue;
+  color: red;
+
+  /* per il testo centrato */
+  display: flex;
+  justify-content: center;
+  /* Centratura orizzontale */
+  align-items: center;
+  /* Centratura verticale */
+
+  z-index: 9998;
+  /* Higher z-index to ensure it's on top */
+
+  /* per la posizione */
+  position: absolute;
+}
+
+.p_1 {
+  top: 45%;
+  right: 4%;
+  width: 7%;
+  height: 18%;
+}
+
+.pizzeria {
+  bottom: 47%;
+  left: 55%;
+  width: 5%;
+  height: 8%;
+}
+
+.g_1 {
+  bottom: 80%;
+  left: 33%;
+  width: 9%;
+  height: 7%;
+}
+
+.g_2 {
+  top: 32%;
+  left: 55%;
+  width: 4%;
+  height: 8%;
+}
+
+.g_3 {
+  bottom: 48%;
+  right: 30%;
+  width: 6%;
+  height: 6%;
+}
+
+.g_4 {
+  top: 32%;
+  right: 30%;
+  width: 4%;
+  height: 12%;
+}
+
+.g_5 {
+  top: 30%;
+  right: 35%;
+  width: 4%;
+  height: 5%;
+}
+
+.g_6 {
+  bottom: 80%;
+  left: 55%;
+  width: 6%;
+  height: 6%;
+}
+
+.g_7 {
+  bottom: 80%;
+  left: 62%;
+  width: 6%;
+  height: 6%;
+}
+
+.g_8 {
+  bottom: 80%;
+  left: 69%;
+  width: 6%;
+  height: 6%;
+}
+
+.g_9 {
+  bottom: 80%;
+  left: 76%;
+  width: 6%;
+  height: 6%;
+}
+
+.g_10 {
+  bottom: 93%;
+  left: 85%;
+  width: 10%;
+  height: 5%;
+}
+
+.g_11 {
+  top: 30%;
+  right: 2%;
+  width: 15%;
+  height: 5%;
+}
+
+.g_12 {
+  bottom: 37%;
+  left: 55%;
+  width: 7%;
+  height: 4%;
+}
+
+.g_13 {
+  bottom: 37%;
+  left: 63%;
+  width: 7%;
+  height: 4%;
+}
+
+.g_14 {
+  bottom: 21%;
+  right: 31%;
+  width: 5%;
+  height: 11%;
+}
+
+.g_15 {
+  bottom: 21%;
+  left: 56%;
+  width: 5%;
+  height: 11%;
+}
+
+.g_16 {
+  bottom: 8%;
+  left: 57%;
+  width: 7%;
+  height: 7%;
+}
+
+.g_17 {
+  bottom: 8%;
+  left: 65%;
+  width: 7%;
+  height: 7%;
+}
+
+.g_18 {
+  bottom: 8%;
+  left: 73%;
+  width: 7%;
+  height: 7%;
+}
+
+.g_19 {
+  bottom: 8%;
+  left: 81%;
+  width: 7%;
+  height: 7%;
+}
+
+.g_20 {
+  bottom: 8%;
+  left: 89%;
+  width: 7%;
+  height: 7%;
+}
+
+.g_21 {
+  bottom: 10%;
+  left: 31%;
+  width: 6%;
+  height: 5%;
+}
+
+.g_22 {
+  bottom: 10%;
+  left: 38%;
+  width: 6%;
+  height: 5%;
+}
+
+.g_23 {
+  bottom: 2%;
+  left: 42%;
+  width: 3%;
+  height: 7%;
+}
+
+.g_24 {
+  bottom: 36%;
+  left: 30%;
+  width: 6%;
+  height: 5%;
+}
+
+.g_25 {
+  bottom: 36%;
+  left: 39%;
+  width: 6%;
+  height: 5%;
+}
+
+.g_26 {
+  bottom: 22%;
+  left: 42%;
+  width: 3%;
+  height: 12%;
+}
+
+.g_27 {
+  bottom: 20%;
+  left: 34%;
+  width: 7%;
+  height: 5%;
+}
+
+.g_28 {
+  bottom: 22%;
+  left: 30%;
+  width: 3%;
+  height: 12%;
+}
+
+.g_29 {
+  top: 35%;
+  left: 5%;
+  width: 6%;
+  height: 7%;
+}
+
+.g_30 {
+  top: 68%;
+  left: 5%;
+  width: 6%;
+  height: 7%;
+}
+
+.g_31 {
+  top: 35%;
+  left: 35%;
+  width: 6%;
+  height: 13%;
+}
