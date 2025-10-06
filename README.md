@@ -1,8 +1,8 @@
 # Speedy pizza game
 
-An online game I developed when I was in high school, now available on my GitHub profile!
+A browser game I developed when I was in high school, now available on my GitHub profile!
 
-Play online at: [speedy-pizza-enas.onrender.com](https://speedy-pizza-enas.onrender.com/)!
+Play in the browser at: [speedy-pizza-enas.onrender.com](https://speedy-pizza-enas.onrender.com/)!
 
 ## Game lore
 In the game, you play as a pizza delivery guy who must deliver pizzas to every house in town as quickly as possible on his motorbike.
